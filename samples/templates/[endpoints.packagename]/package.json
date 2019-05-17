@@ -1,0 +1,21 @@
+{
+  "name": "[domain]-fn-[op]",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "mongodb": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.1.26",
+    "mongodb": "^3.2.3"
+  },
+  "dependencies": {
+  }
+}

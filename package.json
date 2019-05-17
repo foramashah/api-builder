@@ -1,0 +1,14 @@
+{
+  "name": "api-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin": {
+    "build-api": "./bin/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.0"
+  }
+}

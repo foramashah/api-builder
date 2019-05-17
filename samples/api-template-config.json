@@ -1,0 +1,56 @@
+{
+    "sourceTemplatePath": "./templates",
+    "destinationPath": "./output",
+    "tokens": {
+        "domain": "user",
+        "Domain": "User",
+        "endpoints": [
+            {
+                "name": "create",
+                "Name": "Create",
+                "packagename": "[domain]-fn-[name]",
+                "apiName": "[name][Domain]",
+                "ApiName": "[Name][Domain]",
+                "dbmethod": "insert",
+                "dbname": "[domain]db",
+                "members": [
+                    {
+                        "field": "name?",
+                        "type": "string"
+                    },
+                    {
+                        "field": "email?",
+                        "type": "string"
+                    },
+                    {
+                        "field": "mobile?",
+                        "type": "number"
+                    }
+                ]
+            },
+            {
+                "name": "list",
+                "Name": "List",
+                "packagename": "[domain]-fn-[name]",
+                "apiName": "[name][Domain]",
+                "ApiName": "[Name][Domain]",
+                "dbmethod": "insert",
+                "dbname": "[domain]db",
+                "members": [
+                    {
+                        "field": "name?",
+                        "type": "string"
+                    },
+                    {
+                        "field": "email?",
+                        "type": "string"
+                    },
+                    {
+                        "field": "mobile?",
+                        "type": "number"
+                    }
+                ]
+            }
+        ]
+    }
+}
